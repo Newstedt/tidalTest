@@ -186,13 +186,9 @@ def plotFunc(sizes,labels,title,percentInLabel):
     else:
         plt.legend(bbox_to_anchor=(0.9,0.5), loc="center right", fontsize=10, bbox_transform=plt.gcf().transFigure)
     plt.show()
-
-def metaAnalysis():
-
-    userGenderDist = user_metadata_df.groupby('gender').size()
-    user_metadata_df['birthday']
-
+    
     return
+
 
 if __name__ == "__main__":
     main()
